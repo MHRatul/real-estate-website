@@ -24,8 +24,16 @@ const Projects = () => {
         <div className='overflow-hidden'>
           <div className='flex gap-8 transition-transform duration-500 ease-in-out'>
             {projectsData.map((project, index)=>(
-              <div key={index}>
-                <img src={project.image} alt={project.title} />
+              <div key={index} className='relative flex-shrink-0 w-full sm:w-1/4'>
+                <img src={project.image} alt={project.title} className='w-full h-auto mb-14' />
+                <div className='absolute bottom-5 left-0 right-0 flex justify-center w-full p-4'>
+                  <div className='inline-block bg-white w-3/4 px-4 py-2 shadow-md'>
+                    <h2 className='text-xl text-gray-800 font-semibold'>{project.title}</h2>
+                    <p className='text-sm text-gray-500'>
+                      {project.price} <span>|</span> {project.location}
+                    </p>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
