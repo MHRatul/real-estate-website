@@ -19,9 +19,9 @@ const Navbar = () => {
             <img src={assets.logo} alt='' />
             <ul className='hidden md:flex text-white gap-7'>
                 <a href='#Header' className='cursor-pointer hover:text-gray-400'>Home</a>
-                <a href='#Header' className='cursor-pointer hover:text-gray-400'>About</a>
-                <a href='#Header' className='cursor-pointer hover:text-gray-400'>Projects</a>
-                <a href='#Header' className='cursor-pointer hover:text-gray-400'>Testimonials</a>
+                <a href='#About' className='cursor-pointer hover:text-gray-400'>About</a>
+                <a href='#Projects' className='cursor-pointer hover:text-gray-400'>Projects</a>
+                <a href='#Testimonials' className='cursor-pointer hover:text-gray-400'>Testimonials</a>
             </ul>
             <button className='hidden md:block text-white bg-gradient-to-r
              from-blue-500 to-blue-500 hover:from-blue-500 hover:to-blue-400 ... px-8 py-2 rounded-full'>Sign Up</button>
