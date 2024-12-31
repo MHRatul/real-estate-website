@@ -22,6 +22,7 @@ const Navbar = () => {
                 <a href='#About' className='cursor-pointer hover:text-gray-400'>About</a>
                 <a href='#Projects' className='cursor-pointer hover:text-gray-400'>Projects</a>
                 <a href='#Testimonials' className='cursor-pointer hover:text-gray-400'>Testimonials</a>
+                <a href='#Contact' className='cursor-pointer hover:text-gray-400'>Contact</a>
             </ul>
             <button className='hidden md:block text-white bg-gradient-to-r
              from-blue-500 to-blue-500 hover:from-blue-500 hover:to-blue-400 ... px-8 py-2 rounded-full'>Sign Up</button>
