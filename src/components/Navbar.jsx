@@ -11,7 +11,9 @@ const Navbar = () => {
                 <a href='#Header' className='cursor-pointer hover:text-gray-400'>Projects</a>
                 <a href='#Header' className='cursor-pointer hover:text-gray-400'>Testimonials</a>
             </ul>
-            <button className='hidden md:block text-white bg-gradient-to-r from-cyan-500 to-blue-500 px-4 py-2 rounded-full'>Sign Up</button>
+            <button className='hidden md:block text-white bg-gradient-to-r
+             from-blue-500 to-blue-500 hover:from-blue-500 hover:to-blue-400 ... px-4 py-2 rounded-full'>Sign Up</button>
+             <img src={assets.menu_icon} alt='' className='md:hidden w-7' />
         </div>
     </div>
   )
