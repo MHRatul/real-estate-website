@@ -29,7 +29,7 @@ const About = () => {
                     <p> Ongoing Projects</p>
                 </div>
             </div>
-            <p className='my-10 max-w-lg'>We are a leading real estate company dedicated to providing exceptional services to our clients.
+            <p className='my-10 max-w-lg text-justify ...'>We are a leading real estate company dedicated to providing exceptional services to our clients.
              With a team of experienced professionals, we offer a wide range of properties to suit your needs.</p>
              <button className='text-white bg-gradient-to-r from-blue-500 to-blue-500 hover:from-blue-500 hover:to-blue-400 ... px-6 py-2 rounded'>See More</button>
         </div>
